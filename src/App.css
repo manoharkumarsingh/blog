@@ -1,0 +1,70 @@
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.custom-file-input::before {
+    content: 'Choose Pic';
+    display: inline-block;
+    background: linear-gradient(top, blue, #e3e3e3);
+    padding: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 10pt;
+}
+
+
+.containermain {
+    margin-top: 25px;
+}
+
+.productlist {
+    margin-bottom: 20px;
+}
+
+.overflow {
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.selected {
+    background-color: antiquewhite;
+    padding: 5px;
+}
+
+.btndetails {
+    padding-bottom: 20px;
+}
+
+.blogImage {
+    height: 110px;
+    width: 110px;
+    margin-top: 10px;
+}
+
+.required {
+    color: red;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.verticle {
+    border-left: 2px solid gray;
+    height: 100px;
+    padding-left: 5px;
+}
+
+.w3-margin-right {
+    width: 50px;
+}
+
+.img {
+    width: 100%;
+}
+
+.content {
+    max-width: 1400px;
+}
